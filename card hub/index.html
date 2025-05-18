@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Modern Blackjack</title>
+</head>
+<body>
+    <div class="overlay">
+        <h1>BLACKJACK</h1>
+        <p id="message-le">Welcome! Press START to play</p>
+        <div class="game-controls">
+            <button id="start-btn" onclick="startNewGame()">Start Game</button>
+            <button id="newcard-btn" onclick="newCard()" disabled>New Card</button>
+        </div>
+        <div class="game-info">
+            <p id="card-el">Cards:</p>
+            <div class="cards-container"></div>
+            <p id="sum-El">Total: 0</p>
+        </div>
+    <div><p id="chip-pl">chips=100</p></div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
